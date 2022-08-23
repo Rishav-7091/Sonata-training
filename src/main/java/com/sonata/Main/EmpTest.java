@@ -17,8 +17,8 @@ public class EmpTest {
 	}
 	@Test
 	public void ytest1() {
-		e1.setEmpSal(1000);
-		Assertions.assertEquals(1000,e2.yearlySal(e1));
+		e1.setEmpSal(100);
+		Assertions.assertEquals(1200,e2.yearlySal(e1));
 	}
 	@Test
 	public void ytest2() {
@@ -28,7 +28,7 @@ public class EmpTest {
 	@Test
 	public void ytest3() {
 		e1.setEmpSal(1000);
-		Assertions.assertEquals(1000,e2.appSal(e1));
+		Assertions.assertEquals(5000,e2.appSal(e1));
 	}
 
 
