@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.sonata.Cal.Calculator;
+import com.example.demo.Calculator;
 
 @SpringBootTest
 class SonatatrainingApplicationTests {
@@ -25,5 +25,4 @@ class SonatatrainingApplicationTests {
 		int x = c3.div(10, 10);
 		assertThrows(ArithmeticException.class,()->c3.div(10,10),"it is error");
 	}
-
 }

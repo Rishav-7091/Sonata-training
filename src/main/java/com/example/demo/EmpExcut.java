@@ -1,7 +1,5 @@
-package com.sonata.Main;
+package com.example.demo;
 
-import com.sonata.Impl.*;
-import com.sonataModel.*;
 
 public class EmpExcut {
 	

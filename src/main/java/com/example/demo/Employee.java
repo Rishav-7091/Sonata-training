@@ -1,4 +1,4 @@
-package com.sonataModel;
+package com.example.demo;
 
 public class Employee {
 	

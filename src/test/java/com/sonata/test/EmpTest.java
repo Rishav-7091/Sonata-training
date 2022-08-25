@@ -1,10 +1,9 @@
 package com.sonata.test;
 
-import com.sonata.Impl.EmpImpl;
-import com.sonataModel.Employee;
+import com.example.demo.*;
+import com.example.demo.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class EmpTest {
