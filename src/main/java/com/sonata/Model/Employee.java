@@ -5,13 +5,12 @@ public class Employee {
 	String empname;
 	double empsalary;
 	
-	Employee(int empid, String empname, double empsalary){
-		this.empid=empid;
-		this.empname=empname;
-		this.empsalary=empsalary;
-	}
+//	Employee(int empid, String empname, double empsalary){
+//		this.empid=empid;
+//		this.empname=empname;
+//		this.empsalary=empsalary;
+	//}
 
-	public Employee() {}
 
 	public int getEmpid() {
 		return empid;
